@@ -1,4 +1,4 @@
-module aisprid-alerting
+module github.com/wingelote/aisprid-alerting
 
 go 1.21.3
 
