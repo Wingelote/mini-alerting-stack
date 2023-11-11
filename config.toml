@@ -1,0 +1,16 @@
+[server]
+host = "localhost"
+port = 8080
+
+[alerting]
+interval = "3s"
+
+[CPU]
+max_usage = 90
+alert_name = "cpu_low"
+send_to = "Name1"
+
+[memory]
+max_usage = 90
+alert_name = "memory_low"
+send_to = "Name2"
